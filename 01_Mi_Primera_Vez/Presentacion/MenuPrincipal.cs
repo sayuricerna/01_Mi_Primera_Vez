@@ -29,34 +29,12 @@ namespace _01_Mi_Primera_Vez.Presentacion
             frmPrueba.Dock = DockStyle.Fill;
             PanelGeneral.Controls.Add(frmPrueba);
         }
-
-        private void label2_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void button1_Click(object sender, EventArgs e)
-        {
-           
-        }
-
         private void btnUsuarios_Click(object sender, EventArgs e)
         {
-            Usuario.Frmusuario frmusuario = new Usuario.Frmusuario();
-            frmusuario.ShowDialog();
-            /*
-            Personal.Frmpersonal frmpersonal = new Personal.Frmpersonal("n");
-            frmpersonal.Text = "Nuevo Ingreso de Personal";
-            frmpersonal.ShowDialog();*/
+            CUUsuario frmUsuario = new CUUsuario();
+            PanelGeneral.Controls.Clear();
+            frmUsuario.Dock = DockStyle.Fill;
+            PanelGeneral.Controls.Add(frmUsuario);
         }
     }
 }
-
-/*
- 
- btnUsuarios
-txtNombre
-lstUsuarios
-
- 
- */

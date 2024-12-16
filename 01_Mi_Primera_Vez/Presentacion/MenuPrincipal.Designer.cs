@@ -128,7 +128,6 @@ namespace _01_Mi_Primera_Vez.Presentacion
             this.label2.TabIndex = 0;
             this.label2.Text = "BIENVENIDO AL SISTEMA DE CONTROL DE ASISTENCIAS";
             this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // pictureBox1
             // 
@@ -196,7 +195,6 @@ namespace _01_Mi_Primera_Vez.Presentacion
             this.button1.Text = "Asistencia";
             this.button1.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // MenuPrincipal
             // 
